@@ -1,0 +1,790 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 1. 12. 2022, 10:06:07
+    Author     : marti
+*/
+
+/*header*/
+
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 1;
+    overflow: hidden;
+    background-image: url('./img/ikons/—Pngtree—christmas snowing winter falling snow_6536471.png');
+}
+.slideshow li span {
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    top:0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: -1;
+    animation: imageAnimation 20s linear infinite 0s;
+}
+ul,li,span{
+    list-style: none;
+}
+.slideshow li:nth-child(1) span {
+    background-image: url('./img/exterier/vila.jpg');
+    /* animation-delay: 6s;*/
+}
+.slideshow li:nth-child(2) span {
+    background-image: url('./img/exterier/foto1.jpg');
+    animation-delay: 6s;
+}
+.slideshow li:nth-child(3) span {
+    background-image: url('./img/jedalen.jpg');
+    animation-delay: 12s;
+}
+@keyframes imageAnimation {
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        animation-timing-function: ease-out;
+    }
+    17% {
+        opacity: 1
+    }
+    25% {
+        opacity: 1
+    }
+    50%{
+        opacity:0
+    }
+    75%{
+        opacity:0
+    }
+    100% {
+        opacity: 0
+    }
+}
+.no-cssanimations .cb-slideshow li span {
+    opacity: 1;
+}
+html, body{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+div.nav-list-header{
+    height: 5em;
+    background: rgba(2,4,5,0.1);
+    padding-left: 2%;
+}
+.navigation, .nav-menu, .nav-list-header{
+    display: inline-flex;
+    flex-grow: 1;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    font-style: italic;
+    font-family: bitter,serif;
+    list-style: none;
+    align-items: center;
+    gap: 5%;
+}
+.menu-social{
+    display: inline-flex;
+    flex-wrap:wrap;
+    flex-grow: 0;
+    flex-shrink: 1;
+    text-align: center;
+    align-items: center;
+}
+.fa-brands,.personal,.active,.nav-link, a{
+    color:#404040;
+}
+.fa-1x{
+    padding-left: 1em;
+    font-size: 1.3em;
+}
+.fa-brands{
+    padding-left: .8em;
+    font-size: 1.7em;
+}
+.fa-brands:hover,
+.fa-brands:focus {
+    color: #999999;
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: #999999;
+}
+.active:hover,
+.active:focus{
+    color: #999999;
+}
+.personal{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.personal :hover,
+.personal :focus {
+    color: #999999;
+}
+ul{
+    margin-bottom: 0;
+}
+.logo {
+    width: 55%;
+    position: absolute;
+    top: 20%;
+    left: 1%;
+}
+.text1{
+    position: absolute;
+    top: 17em;
+    font-size: 2em;
+    padding-bottom: 1em;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    color:#404040 ;
+    text-shadow: 2px 2px 2px white;
+    animation: myfirst 4s linear;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    margin: 1em;
+}
+.fa-heart{
+    color: #cc0000;
+    text-shadow: 2px 2px 2px white;
+    padding-left: .5em;
+}
+@keyframes myfirst {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 33.3%;
+    }
+}
+
+/*Čiernohronská železnica*/
+
+.container-okolie-ciernohronska-zeleznicka {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-image : linear-gradient(to bottom,#ffffff,#ffffff, #f2f2f2,#e6e6e6,#d9d9d9,#cccccc,#bfbfbf,#b3b3b3);
+    font-size: 1.3em;
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.okolie-ciernohronska-zeleznicka strong{
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+}
+.okolie-ciernohronska-zeleznicka-odkaz b:hover,
+.okolie-ciernohronska-zeleznicka-odkaz b:focus{
+    color: #cc0000;
+}
+.okolie-ciernohronska-zeleznicka {
+    width: 80%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    border: .1em solid #d9d9d9;
+    background-color: #e6e6e6;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
+}
+.border {
+    width: 40%;
+    padding-top: 1em;
+}
+
+/*Čiernohronská železnica + Cyklodreziny foto */
+
+.container-okolie-ciernohronska-zeleznicka-foto {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.3em;
+    background-image : linear-gradient(to bottom,#ffffff,#ffffff, #f2f2f2,#e6e6e6,#d9d9d9,#cccccc,#bfbfbf,#b3b3b3);
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.okolie-ciernohronska-zeleznicka-foto {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+.row {
+    position: relative;
+    float: right;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 3em;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column img {
+    width: 90%;
+    border-radius: 8%;
+    border: 0.1em solid #666666;
+    object-fit: cover;
+}
+.column {
+    float: left;
+    width: 25%;
+    object-fit: cover;
+    padding: 0;
+}
+
+/*Cyklodrezina*/
+
+.container-okolie-cyklodrezina {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.3em;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    background-image : linear-gradient(to bottom,#ffffff,#ffffff, #f2f2f2,#e6e6e6,#d9d9d9,#cccccc,#bfbfbf,#b3b3b3);
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.okolie-cyklodrezina {
+    width: 80%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    border: .1em solid #d9d9d9;
+    background-color: #e6e6e6;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
+}
+.okolie-cyklodrezina strong{
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+}
+.okolie-cyklodrezina-odkaz b:hover,
+.okolie-cyklodrezina-odkaz b:focus{
+    color: #cc0000;
+}
+
+/*Vydrovo*/
+
+.container-okolie-vydrovo {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.3em;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    background-image : linear-gradient(to bottom,#ffffff,#ffffff, #f2f2f2,#e6e6e6,#d9d9d9,#cccccc,#bfbfbf,#b3b3b3);
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.okolie-vydrovo {
+    width: 80%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    border: .1em solid #d9d9d9;
+    background-color: #e6e6e6;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
+}
+.okolie-vydrovo strong{
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+}
+.okolie-vydrovo-odkaz b:hover,
+.okolie-vydovo-odkaz b:focus{
+    color: #cc0000;
+}
+
+/*Vydrovo + Ski foto */
+
+.container-okolie-vydrovo-foto {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.3em;
+    background-image : linear-gradient(to bottom,#ffffff,#ffffff, #f2f2f2,#e6e6e6,#d9d9d9,#cccccc,#bfbfbf,#b3b3b3);
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.okolie-vydrovo-foto {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+.row {
+    position: relative;
+    float: right;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 3em;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column img {
+    width: 90%;
+    border-radius: 8%;
+    border: 0.1em solid #666666;
+    object-fit: cover;
+}
+.column {
+    float: left;
+    width: 25%;
+    object-fit: cover;
+    padding: 0;
+}
+
+/*Ski Čierny Balog*/
+
+.container-okolie-ski-cierny-balog {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.3em;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    background-image : linear-gradient(to bottom,#ffffff,#ffffff, #f2f2f2,#e6e6e6,#d9d9d9,#cccccc,#bfbfbf,#b3b3b3);
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.okolie-ski-cierny-balog {
+    width: 80%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    border: .1em solid #d9d9d9;
+    background-color: #e6e6e6;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
+}
+.okolie-ski-cierny-balog strong{
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+}
+.okolie-ski-cierny-balog-odkaz b:hover,
+.okolie-ski-cierny-balog-odkaz b:focus{
+    color: #cc0000;
+}
+
+/*Bystrianska jakyňa */
+
+.container-okolie-bystrianska-jaskyna {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.3em;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    background-image : linear-gradient(to bottom,#ffffff,#ffffff, #f2f2f2,#e6e6e6,#d9d9d9,#cccccc,#bfbfbf,#b3b3b3);
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.okolie-bystrianska-jaskyna {
+    width: 80%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    border: .1em solid #d9d9d9;
+    background-color: #e6e6e6;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
+}
+.okolie-bystrianska-jaskyna strong{
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+}
+.okolie-bystrianska-jaskyna-odkaz b:hover,
+.okolie-bystrianska-jaskyna-odkaz b:focus{
+    color: #cc0000;
+}
+
+/*Bystrianska jaskyňa + Nízke Tatry foto */
+
+.container-okolie-bystrianska-jaskyna-foto {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.3em;
+    background-image : linear-gradient(to bottom,#ffffff,#ffffff, #f2f2f2,#e6e6e6,#d9d9d9,#cccccc,#bfbfbf,#b3b3b3);
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.okolie-bystrianska-jaskyna-foto {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+
+/*Nízke Tatry */
+
+.container-okolie-nizke-tatry {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.3em;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    background-image : linear-gradient(to bottom,#ffffff,#ffffff, #f2f2f2,#e6e6e6,#d9d9d9,#cccccc,#bfbfbf,#b3b3b3);
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.okolie-nizke-tatry {
+    width: 80%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    border: .1em solid #d9d9d9;
+    background-color: #e6e6e6;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
+}
+.okolie-nizke-tatry strong{
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+}
+.okolie-nizke-tatry-odkaz b:hover,
+.okolie-nizke-tatry-odkaz b:focus{
+    color: #cc0000;
+}
+
+/*Okolie */
+
+.container-okolie-tipy {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.3em;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    background-image : linear-gradient(to bottom,#ffffff,#ffffff, #f2f2f2,#e6e6e6,#d9d9d9,#cccccc,#bfbfbf,#b3b3b3);
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.okolie-tipy{
+    width: 80%;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    border: .1em solid #d9d9d9;
+    background-color: #e6e6e6;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
+}
+.okolie-tipy strong{
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+}
+b {
+    text-decoration: underline;
+    color: #000;
+    font-family: initial;
+}
+.okolie-tipy b:hover,
+.okolie-tipy b:focus{
+    color: #cc0000;
+}
+
+/*Footer*/
+
+footer{
+    background: #999999;
+    height: 10em;
+}
+.kontakt{
+    padding-left: 5%;
+    padding-top: .4em;
+    float: left;
+    line-height: 1.2em;
+    font-size: 1.2em;
+    text-align: left;
+    display: block;
+    color:#404040;
+}
+.kontakt strong {
+    font-size: 1em;
+    text-decoration: underline ;
+    line-height: 2em;
+}
+.info{
+    display: flex;
+}
+.copy {
+    padding-top: 8em;
+    color: #404040;
+    text-align: center;
+    font-size: 1.2em;
+}
+#button {
+    color: #666666;
+    position: fixed;
+    bottom: 9em;
+    right: 1em;
+    z-index: 10;
+    display: block;
+    cursor: pointer;
+    opacity: .75;
+}
+#button:hover,
+#button:focus {
+    opacity: 1;
+    transition: opacity .4s;
+}
+
+/* nav bar - hamburger */
+.checkbtn{
+    font-size: 25px;
+    color: #404040;
+    float: right;
+    cursor: pointer;
+    display: none;
+    padding-left: .5em;
+    padding-left: 90%;
+}
+#check{
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width: 1200px){
+    .navigation, .nav-menu, .nav-list-header{
+        font-size: 1.1em;
+    }
+}
+@media (max-width: 1000px){
+    .menu-social {
+        font-size: .9em;
+    }
+    .logo {
+        width: 60%;
+    }
+}
+@media (max-width: 950px){
+    .logo {
+        width: 65%;
+    }
+    .fa-1x {
+        padding-left: 1em;
+    }
+    .container-okolie-ciernohronska-zeleznicka,.container-okolie-cyklodrezina,.container-okolie-vydrovo,.container-okolie-ski-cierny-balog,.container-okolie-bystrianska-jaskyna,.container-okolie-nizke-tatry,.container-okolie-tipy{
+        font-size: 1em;
+    }
+}
+
+/* Responzívny nav bar - hamburger */
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    .fas fa-bars {
+        padding-right: 1em;
+    }
+    .navigation {
+        position: absolute;
+        display: grid;
+        width: 27%;
+        height: 10em;
+        font-size: 1.1em;
+        top: 80px;
+        right: -100%;
+        transition: all .5s;
+        padding-left: 10em;
+        z-index: 99;
+    }
+    .nav-list{
+        text-align: right;
+        padding-left: 0;
+    }
+    .nav-list:last-child{
+        padding-right: 0;
+    }
+    #check:checked ~ ul{
+        right:  15%;
+    }
+}
+@media (max-width: 820px){
+    .logo {
+        width: 70%;
+    }
+    .text1 {
+        font-size: 1.7em;
+        top: 20em;
+    }
+    @keyframes myfirst {
+        from {
+            left: 0px;
+        }
+        to {
+            left: 18%;
+        }
+    }
+}
+@media (max-width: 700px) {
+    #check:checked ~ ul{
+        right:  18%;
+    }
+}
+@media (max-width: 620px) {
+    #check:checked ~ ul{
+        right:  20%;
+    }
+}
+@media (max-width: 600px) {
+    .checkbtn{
+        font-size: 18px;
+    }
+    @keyframes myfirst {
+        from {
+            left: 0px;
+        }
+        to {
+            left: 0%;
+        }
+    }
+}
+@media (max-width: 550px) {
+    #check:checked ~ ul{
+        right:  24%;
+    }
+}
+@media (max-width: 450px){
+    #check:checked ~ ul{
+        right:  33%;
+    }
+    .nav-list-header{
+        font-size: 1em;
+    }
+}
+@media (max-width: 350px) {
+    .nav-list-header{
+        font-size: .9em;
+    }
+    .fa-1x{
+        padding-left: .9em;
+        font-size: 1.1em;
+    }
+    .fa-brands{
+        padding-left: .8em;
+        font-size: 1.4em;
+    }
+    #check:checked ~ ul{
+        right:  35%;
+    }
+}
+@media (max-width: 300px) {
+    .nav-list-header{
+        font-size: .8em;
+    }
+    .fa-1x{
+        padding-left: .8em;
+        font-size: 1em;
+    }
+    .fa-brands{
+        padding-left: .8em;
+        font-size: 1.3em;
+    }
+    #check:checked ~ ul{
+        right:  34%;
+    }
+}
+
+
