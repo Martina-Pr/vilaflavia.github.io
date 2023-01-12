@@ -674,11 +674,9 @@ footer{
         gap: 0;
     }
     .menu-social {
-        width: 0;
         font-size: .9em;
     }
     .navigation.responsive {
-   
         padding-right: 12%;
     }
     .menu-social, .personal, .social-icon{
