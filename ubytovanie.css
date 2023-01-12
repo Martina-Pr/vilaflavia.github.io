@@ -809,10 +809,10 @@ footer{
         padding-left: .5em;
     }
     .menu-social {
-        width: 60%;
+        width: 50%;
     }
     .nav-menu {
-        width: 40%;
+        width: 50%;
     }
     .nav-list-header{
         font-size: 1em;
@@ -822,18 +822,20 @@ footer{
         top: 13em;
     }
 }
+@media (max-width: 410px){
+    .navigation.responsive {
+        padding-left: 10%;
+    }
+}
 @media (max-width: 350px) {
-    .nav-list-header{
-        font-size: 1em;
+    .nav-list-header {
         gap: 0;
     }
     .menu-social {
-        width: 0;
         font-size: .9em;
     }
     .navigation.responsive {
-        padding-left: 0%;
-        padding-right: 12%;
+        padding-right: 20%;
     }
     .menu-social, .personal, .social-icon{
         padding-left: .5em;
