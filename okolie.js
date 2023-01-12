@@ -4,7 +4,7 @@
  */
 
 
-
+/* scrolovnie */
 let calcScrollValue = () => {
     let scrollProgress = document.getElementById("button");
     let pos = document.documentElement.scrollTop;
@@ -24,3 +24,13 @@ let calcScrollValue = () => {
 };
 window.onscroll = calcScrollValue;
 window.onload = calcScrollValue;
+
+/* hamburger menu */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "navigation") {
+        (x.className += " responsive");
+    } else {
+        (x.className = "navigation");
+    }
+}
