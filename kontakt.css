@@ -345,6 +345,9 @@ h3 {
         right: 1.5em;
         top: 0;
     }
+    .nav-menu {
+        padding-left: 0;
+    }
     .navigation.responsive a {
         position: relative;
         display: grid;
@@ -466,9 +469,6 @@ h3 {
         font-size: 1.7em;
         top: 22em;
     }
-    .navigation.responsive {
-        padding-left: 10%;
-    }
     .personal {
         font-size: 1em;
     }
@@ -482,13 +482,15 @@ h3 {
     }
 }
 @media (max-width: 320px){
-    .navigation.responsive {
-        padding-left: 0;
-    }
     .text1 {
         font-size: 1.6em;
         top: 24em;
     }
 }
-
+@media (max-width: 290px){
+    .text1 {
+        font-size: 1.3em;
+        top: 30em;
+    }
+}
 

@@ -685,8 +685,7 @@ img > p{
     }
 }
 @media (max-width: 370px){
-    
-    .text1 {
+        .text1 {
         font-size: 1.7em;
         top: 22em;
     }
@@ -695,10 +694,15 @@ img > p{
     }
 }
 @media (max-width: 320px){
-    
     .text1 {
         font-size: 1.6em;
         top: 24em;
+    }
+}
+@media (max-width: 290px){
+    .text1 {
+        font-size: 1.3em;
+        top: 30em;
     }
 }
 
