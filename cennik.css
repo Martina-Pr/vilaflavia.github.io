@@ -488,6 +488,9 @@ tr:nth-child(even){
     .personal {
         font-size: .8em;
     }
+    #button {
+        bottom: 5em;
+    }
 }
 @media (max-width: 290px){
     .cennik-1 {

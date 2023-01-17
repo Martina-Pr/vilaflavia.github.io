@@ -847,4 +847,7 @@ b {
     .personal {
         font-size: .8em;
     }
+    #button {
+        bottom: 5em;
+    }
 }
