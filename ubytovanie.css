@@ -804,7 +804,7 @@ p{
         top:  16.8em;
     }
     .container-footer {
-        height: 12em;
+        height: 13em;
     }
     .personal1 {
         font-size: 1em;
@@ -843,6 +843,9 @@ p{
     }
     .navigation.responsive {
         padding-left: 25%;
+    }
+    .container-footer {
+        height: 16em;
     }
 }
 @media (max-width: 320px){

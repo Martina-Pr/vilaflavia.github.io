@@ -405,7 +405,7 @@ tr:nth-child(even){
         top:  16.8em;
     }
     .container-footer {
-        height: 12em;
+        height: 13em;
     }
     .personal1 {
         font-size: 1em;
@@ -444,6 +444,9 @@ tr:nth-child(even){
     }
     .navigation.responsive {
         padding-left: 25%;
+    }
+    .container-footer {
+        height: 16em;
     }
 }
 @media (max-width: 350px) {
