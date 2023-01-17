@@ -846,7 +846,7 @@ p{
         top: 22em;
     }
     .navigation.responsive {
-        padding-left: 25%;
+        padding-left: 10%;
     }
     .personal {
         font-size: 1em;
@@ -854,15 +854,10 @@ p{
 }
 @media (max-width: 320px){
     .navigation.responsive {
-        padding-left: 10%;
+        padding-left: 0;
     }
     .text1 {
         font-size: 1.6em;
         top: 24em;
-    }
-}
-@media (max-width: 290px){
-    .navigation.responsive {
-        padding-left: 18%;
     }
 }

@@ -683,7 +683,7 @@ img > p{
 }
 @media (max-width: 370px){
     .navigation.responsive {
-        padding-left: 25%;
+        padding-left: 10%;
     }
     .text1 {
         font-size: 1.7em;
@@ -695,16 +695,12 @@ img > p{
 }
 @media (max-width: 320px){
     .navigation.responsive {
-        padding-left: 10%;
+        padding-left: 0;
     }
     .text1 {
         font-size: 1.6em;
         top: 24em;
     }
 }
-@media (max-width: 290px){
-    .navigation.responsive {
-        padding-left: 18%;
-    }
-}
+
 
