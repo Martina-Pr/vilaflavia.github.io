@@ -452,6 +452,15 @@ tr:nth-child(even){
     .personal {
         font-size: 1em;
     }
+    .copy {
+        font-size: 1em;
+    }
+    .container-footer {
+        height: 10em;
+    }
+    .kontakt {
+        font-size: 1em;
+    }
 }
 @media (max-width: 350px) {
     .cennik-1 {
@@ -460,15 +469,23 @@ tr:nth-child(even){
 }
 @media (max-width: 320px){
     .text1 {
-        font-size: 1.6em;
-        top: 24em;
+        font-size: 1.5em;
+        top: 26em;
+    }
+    .personal {
+        font-size: .9em;
+    }
+    #button {
+        bottom: 6em;
+    }
+}
+@media (max-width: 300px){
+    .text1 {
+        font-size: 1.4em;
+        top: 28em;
     }
 }
 @media (max-width: 290px){
-    .text1 {
-        font-size: 1.3em;
-        top: 30em;
-    }
     .cennik-1 {
         font-size: .5em;
     }
