@@ -502,9 +502,14 @@ h3 {
 }
 @media (max-width: 300px){
     .text1 {
-        font-size: 1.4em;
-        top: 28em;
+        font-size: 1.3em;
+        top: 30em;
+        margin-left: .7em;
+    }
+    .personal {
+        font-size: .8em;
     }
 }
+
 
 
