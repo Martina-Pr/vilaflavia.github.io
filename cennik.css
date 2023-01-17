@@ -412,11 +412,11 @@ tr:nth-child(even){
     }
 }
 @media (max-width: 450px){
-    .text1 {
-        top: 13em;
-    }
     .navigation.responsive {
         padding-left: 39%;
+    }
+    .cennik-1 {
+        font-size: .7em;
     }
 }
 @media (max-width: 410px){
@@ -454,7 +454,7 @@ tr:nth-child(even){
     }
 }
 @media (max-width: 350px) {
-    .container-cennik-1 {
+    .cennik-1 {
         font-size: .6em;
     }
 }
@@ -468,6 +468,9 @@ tr:nth-child(even){
     .text1 {
         font-size: 1.3em;
         top: 30em;
+    }
+    .cennik-1 {
+        font-size: .5em;
     }
 }
 

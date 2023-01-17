@@ -811,9 +811,6 @@ p{
     }
 }
 @media (max-width: 450px){
-    .text1 {
-        top: 13em;
-    }
     .navigation.responsive {
         padding-left: 39%;
     }
