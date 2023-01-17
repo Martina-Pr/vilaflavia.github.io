@@ -231,7 +231,7 @@ p {
     transition:  all, 1s;
 }
 .izba-foto1:hover{
-    width: 90%;
+    transform: scale(1.4, 1.4);
 }
 
 /*uvod2*/
@@ -299,7 +299,7 @@ p {
     transition:  all, 1s;
 }
 .foto3:hover{
-    width: 90%;
+    transform: scale(1.4, 1.4);
 }
 
 /*uvod3-ikona*/
@@ -578,6 +578,18 @@ img > p{
     }
     .text2, .foto, .text3, .foto2 {
         width: 70%;
+    }
+    .foto {
+        padding-top: 3em;
+    }
+    .foto2 {
+        padding-bottom: 3em;
+    }
+    .izba-foto1:hover{
+        transform: scale(1.3, 1.3);
+    }
+    .foto3:hover{
+        transform: scale(1.3, 1.3);
     }
     .grid-container {
         row-gap: 11%;
