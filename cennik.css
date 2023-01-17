@@ -145,7 +145,8 @@ ul{
     text-shadow: 2px 2px 2px white;
     animation: myfirst 4s linear;
     animation-timing-function: linear;
-    animation-iteration-count: 1;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
     text-align: center;
     align-items: center;
     justify-content: center;
