@@ -407,9 +407,6 @@ tr:nth-child(even){
     .container-footer {
         height: 13em;
     }
-    .personal1 {
-        font-size: 1em;
-    }
 }
 @media (max-width: 450px){
     .text1 {
@@ -430,8 +427,15 @@ tr:nth-child(even){
         font-size: 2em;
         top: 18em;
     }
-    .button {
+    .container-footer {
+        height: 12em;
+    }
+    .personal {
+        font-size: 1.1em;
+    }
+    #button {
         right: .5em;
+        bottom: 7em;
     }
     .fa-2x {
         font-size: 1.8em;
@@ -445,8 +449,8 @@ tr:nth-child(even){
     .navigation.responsive {
         padding-left: 25%;
     }
-    .container-footer {
-        height: 16em;
+    .personal {
+        font-size: 1em;
     }
 }
 @media (max-width: 350px) {
