@@ -25,40 +25,36 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <script src="cennik.js" type="text/javascript"></script>
     </head>
     <body>
-         <header >
-            <div class="flex-container">
-                <div class="nav-list-header">
-                    <div class="menu-social">
-                        <div><a href="https://www.facebook.com/vilaflaviaciernybalog" class="social-icon"><i class="fa-brands fa-square-facebook"></i></a></div>
-                        <div class="personal">
-                            <div><i class="fa-solid fa-phone fa-1x" style="flex-grow: 1"></i><a href="tel: +421911146979"> +421 911 146 979</a></div>
-                            <div><i class="fa-solid fa-envelope fa-1x" style="flex-grow: 1"></i><a href="mailto:vilaflaviaciernybalog@gmail.com"> vilaflaviaciernybalog@gmail.com</a></div>
-                        </div>
-                    </div > 
-                    <div class="nav-menu">
-                        <ul class="navigation" id="myTopnav">
-                            <li class="nav-list"  style="flex-grow: 1"><a class="nav-link" href="index.html"><strong>Úvod</strong></a></li>
-                            <li class="nav-list"  style="flex-grow: 1"><a class="nav-link" href="ubytovanie.html"><strong>Ubytovanie</strong></a></li>
-                            <li class="nav-list"  style="flex-grow: 1"><a class="nav-link"  href="okolie.html"><strong>Okolie</strong></a></li>
-                            <li class="nav-list"  style="flex-grow: 1"><a  class="nav-link"  href="cennik.html"><strong>Cenník</strong></a></li>
-                            <li class="nav-list"  style="flex-grow: 1"><a class="nav-link"  href="kontakt.html"><strong>Kontakt</strong></a></li>
-                        </ul>
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                            <i class="fa fa-bars"></i>
-                        </a>
-                    </div> 
-                    <ul class="slideshow">
-                        <li><span>1</span></li>
-                        <li><span>2</span></li>
-                        <li><span>3</span></li>
+        <header >
+            <div class="nav-list-header">
+                <div class="menu-social">
+                    <div><a href="https://www.facebook.com/vilaflaviaciernybalog" class="social-icon"><i class="fa-brands fa-square-facebook"></i></a></div>
+                </div > 
+                <div class="nav-menu">
+                    <ul class="navigation" id="myTopnav">
+                        <li class="nav-list"  style="flex-grow: 1"><a class="nav-link" href="index.html"><strong>Úvod</strong></a></li>
+                        <li class="nav-list"  style="flex-grow: 1"><a class="nav-link" href="ubytovanie.html"><strong>Ubytovanie</strong></a></li>
+                        <li class="nav-list"  style="flex-grow: 1"><a class="nav-link"  href="okolie.html"><strong>Okolie</strong></a></li>
+                        <li class="nav-list"  style="flex-grow: 1"><a  class="nav-link"  href="cennik.html"><strong>Cenník</strong></a></li>
+                        <li class="nav-list"  style="flex-grow: 1"><a class="nav-link"  href="kontakt.html"><strong>Kontakt</strong></a></li>
                     </ul>
-                    <div class="logo">
-                        <img class="logo" src="img/logo/logo-biela1.png" alt=""/>
-                    </div>                  
-                </div>
-                <p class="text1"><strong>Ubytovanie, ktoré má<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duratio: 2s;"></i></strong> !</p>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div> 
             </div>
         </header>
+        <section class="slide">
+            <ul class="slideshow">
+                <li><span>1</span></li>
+                <li><span>2</span></li>
+                <li><span>3</span></li>
+            </ul>
+            <div class="logo">
+                <img class="logo" src="img/logo/logo-biela1.png" alt=""/>
+            </div>                  
+            <p class="text1"><strong>Ubytovanie, ktoré má<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duratio: 2s;"></i></strong> !</p>
+        </section>
         <section class="container-cennik-1">
             <div style="overflow-x:auto;">
                 <table class="cennik-1">
@@ -105,19 +101,22 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         </section>
         <footer>
             <div class="container-footer">
+                <div class="personal">
+                    <div><i class="fa-solid fa-phone fa-1x" style="flex-grow: 1"></i><a class="personal1" href="tel: +421911146979"> +421 911 146 979</a></div>
+                    <div><i class="fa-solid fa-envelope fa-1x" style="flex-grow: 1"></i><a  class="personal1" href="mailto:vilaflaviaciernybalog@gmail.com"> vilaflaviaciernybalog@gmail.com</a></div>
+                </div>
                 <div class="kontakt" id="kontakt">
                     <p><strong>ADRESA:</strong><br>
                         Hlavná 193/21<br>
                         Čierny Balog<br>
                         976 52 </p>
                 </div>
-            </div>
-            <div class="copy">
-                <p>Martina Prasličková&copy;2022</p>
-            </div>   
-            <a href="#" id="button" >
-                <i class="fa-solid fa-arrow-up fa-2x"></i>
-            </a>
+                <div class="copy">
+                    <p>Martina Prasličková&copy;2022</p>
+                </div> 
+                <a href="#" id="button" >
+                    <i class="fa-solid fa-arrow-up fa-2x"></i>
+                </a>
         </footer>
     </body>
 </html>
