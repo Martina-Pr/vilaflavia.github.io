@@ -35,16 +35,16 @@ div.nav-list-header{
     display: -ms-inline-flexbox;
     display: inline-flex;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     font-size: 1.2em;
     line-height: 1.4em;
     font-style: italic;
     font-family: bitter,serif;
     list-style: none;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     gap: 5%;
 }
 .nav-menu {
@@ -55,16 +55,16 @@ div.nav-list-header{
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap:wrap;
-        flex-wrap:wrap;
+    flex-wrap:wrap;
     -webkit-box-flex: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
     -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 .fa-brands,.nav-link,a{
     color:#f2f2f2;
@@ -103,7 +103,7 @@ section.slide {
     opacity: 0;
     z-index: -1;
     -webkit-animation: imageAnimation 20s linear infinite 0s;
-            animation: imageAnimation 20s linear infinite 0s;
+    animation: imageAnimation 20s linear infinite 0s;
 }
 ul,li,span{
     list-style: none;
@@ -115,23 +115,23 @@ ul,li,span{
 .slideshow li:nth-child(2) span {
     background-image: url('./img/exterier/foto1.jpg');
     -webkit-animation-delay: 6s;
-            animation-delay: 6s;
+    animation-delay: 6s;
 }
 .slideshow li:nth-child(3) span {
     background-image: url('./img/jedalen.jpg');
     -webkit-animation-delay: 12s;
-            animation-delay: 12s;
+    animation-delay: 12s;
 }
 @-webkit-keyframes imageAnimation {
     0% {
         opacity: 0;
         -webkit-animation-timing-function: ease-in;
-                animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
     }
     8% {
         opacity: 1;
         -webkit-animation-timing-function: ease-out;
-                animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
     }
     17% {
         opacity: 1
@@ -153,12 +153,12 @@ ul,li,span{
     0% {
         opacity: 0;
         -webkit-animation-timing-function: ease-in;
-                animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
     }
     8% {
         opacity: 1;
         -webkit-animation-timing-function: ease-out;
-                animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
     }
     17% {
         opacity: 1
@@ -197,20 +197,20 @@ ul{
     color:#404040 ;
     text-shadow: 2px 2px 2px white;
     -webkit-animation: myfirst 4s linear;
-            animation: myfirst 4s linear;
+    animation: myfirst 4s linear;
     -webkit-animation-timing-function: linear;
-            animation-timing-function: linear;
+    animation-timing-function: linear;
     -webkit-animation-iteration-count: 2;
-            animation-iteration-count: 2;
+    animation-iteration-count: 2;
     -webkit-animation-direction: alternate;
-            animation-direction: alternate;
+    animation-direction: alternate;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 p {
     margin: 1em;
@@ -244,11 +244,11 @@ p {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     position: relative;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     padding-top: 5em;
     background-image : -webkit-gradient(linear,left top, left bottom,from(#ffffff),color-stop(#ffffff), color-stop(#f2f2f2),color-stop(#e6e6e6),color-stop(#d9d9d9),color-stop(#cccccc),color-stop(#bfbfbf),to(#b3b3b3));
@@ -258,11 +258,11 @@ p {
     font-family: sans-serif;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     /* background-image: url('./img/ikons/_24_falling-snow-gif-transparent_falling-snow-gif-transparent-13-gif-images-download.gif');*/
 }
 .uvod{
@@ -270,13 +270,13 @@ p {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 90%;
     padding-bottom: 5em;
@@ -288,19 +288,19 @@ p {
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     width: 30%;
     padding: 1em;
     border: .1em solid #d9d9d9;
     background-color: #e6e6e6;
     -webkit-box-shadow: 0px 0px 16px 16px #d9d9d9;
-            box-shadow: 0px 0px 16px 16px #d9d9d9;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
 }
 .text2 strong{
     font-family: 'Playfair Display', serif;
@@ -317,14 +317,14 @@ p {
     display: -ms-inline-flexbox;
     display: inline-flex;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 40%;
 }
@@ -337,8 +337,8 @@ p {
 }
 .izba-foto1:hover{
     -webkit-transform: scale(1.4, 1.4);
-        -ms-transform: scale(1.4, 1.4);
-            transform: scale(1.4, 1.4);
+    -ms-transform: scale(1.4, 1.4);
+    transform: scale(1.4, 1.4);
 }
 
 /*uvod2*/
@@ -350,7 +350,7 @@ p {
 
     position: relative;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     padding-top: 5em;
     background-image : -webkit-gradient(linear,left top, left bottom,from(#ffffff),color-stop(#ffffff), color-stop(#f2f2f2),color-stop(#e6e6e6),color-stop(#d9d9d9),color-stop(#cccccc),color-stop(#bfbfbf),to(#b3b3b3));
@@ -360,11 +360,11 @@ p {
     font-family: sans-serif;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     /* background-image: url('./img/ikons/_24_falling-snow-gif-transparent_falling-snow-gif-transparent-13-gif-images-download.gif');*/
 }
 .uvod{
@@ -374,12 +374,12 @@ p {
 
     -webkit-box-align: center;
 
-        -ms-flex-align: center;
+    -ms-flex-align: center;
 
-            align-items: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 90%;
     padding-bottom: 5em;
@@ -391,23 +391,23 @@ p {
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
 
     -webkit-box-pack: center;
 
-        -ms-flex-pack: center;
+    -ms-flex-pack: center;
 
-            justify-content: center;
+    justify-content: center;
     padding-top: 2em;
     width: 30%;
     padding: 1em;
     border: .1em solid #d9d9d9;
     background-color: #e6e6e6;
     -webkit-box-shadow: 0px 0px 16px 16px #d9d9d9;
-            box-shadow: 0px 0px 16px 16px #d9d9d9;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
 }
 .text3 strong{
     font-family: 'Playfair Display', serif;
@@ -423,16 +423,16 @@ p {
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 40%;
 }
@@ -445,8 +445,8 @@ p {
 }
 .foto3:hover{
     -webkit-transform: scale(1.4, 1.4);
-        -ms-transform: scale(1.4, 1.4);
-            transform: scale(1.4, 1.4);
+    -ms-transform: scale(1.4, 1.4);
+    transform: scale(1.4, 1.4);
 }
 
 /*uvod3-ikona*/
@@ -483,10 +483,10 @@ img > p{
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     position: relative;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     padding-top: 7%;
     background-image : -webkit-gradient(linear,left top, left bottom,from(#ffffff),color-stop(#ffffff), color-stop(#f2f2f2),color-stop(#e6e6e6),color-stop(#d9d9d9),color-stop(#cccccc),color-stop(#bfbfbf),to(#b3b3b3));
@@ -496,24 +496,24 @@ img > p{
     font-family: sans-serif;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .uvod{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 90%;
 }
@@ -529,7 +529,7 @@ img > p{
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     font-family: 'Playfair Display', serif;
     font-size: 1.2em;
 }
@@ -538,7 +538,7 @@ img > p{
 }
 .recenzie{
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     background-image : -webkit-gradient(linear,left top, left bottom,from(#ffffff),color-stop(#ffffff), color-stop(#f2f2f2),color-stop(#e6e6e6),color-stop(#d9d9d9),color-stop(#cccccc),color-stop(#bfbfbf),to(#b3b3b3));
     background-image : -o-linear-gradient(top,#ffffff,#ffffff, #f2f2f2,#e6e6e6,#d9d9d9,#cccccc,#bfbfbf,#b3b3b3);
     background-image : linear-gradient(to bottom,#ffffff,#ffffff, #f2f2f2,#e6e6e6,#d9d9d9,#cccccc,#bfbfbf,#b3b3b3);
@@ -554,13 +554,13 @@ img > p{
     display: -ms-grid;
     display: grid;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     width: 100%;
     -ms-grid-columns: auto 10% auto 10% auto;
     grid-template-columns: auto auto auto ;
     -webkit-column-gap: 10%;
-       -moz-column-gap: 10%;
-            column-gap: 10%;
+    -moz-column-gap: 10%;
+    column-gap: 10%;
     padding-top: 5%;
     text-align: center;
 }
@@ -604,12 +604,12 @@ img > p{
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
     color: #404040;
     padding-top: .5em;
     font-size: 1.3em;
@@ -618,8 +618,8 @@ img > p{
     font-family: bitter,serif;
     list-style: none;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     gap: 5%;
 }
 .hauzi,.personal1 {
@@ -748,7 +748,7 @@ img > p{
         display: grid;
         background: #666666;
         -webkit-box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.8);
-                box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.8);
+        box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.8);
         line-height: 1.5em;
         font-size: 1.1em;
     }
@@ -794,13 +794,13 @@ img > p{
     }
     .izba-foto1:hover{
         -webkit-transform: scale(1.3, 1.3);
-            -ms-transform: scale(1.3, 1.3);
-                transform: scale(1.3, 1.3);
+        -ms-transform: scale(1.3, 1.3);
+        transform: scale(1.3, 1.3);
     }
     .foto3:hover{
         -webkit-transform: scale(1.3, 1.3);
-            -ms-transform: scale(1.3, 1.3);
-                transform: scale(1.3, 1.3);
+        -ms-transform: scale(1.3, 1.3);
+        transform: scale(1.3, 1.3);
     }
     .grid-container {
         row-gap: 11%;
@@ -816,7 +816,6 @@ img > p{
 }
 @media (max-width: 620px) {
     .grid-container {
-        -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
         row-gap: 7%;
         padding-bottom: 12em;
@@ -903,7 +902,7 @@ img > p{
     }
 }
 @media (max-width: 370px){
-        .text1 {
+    .text1 {
         font-size: 1.7em;
         top: 22em;
     }
@@ -945,4 +944,12 @@ img > p{
         bottom: 5em;
     }
 }
-
+@media (max-width: 290px){
+    .text1 {
+        font-size: 1.2em;
+        top: 32em;
+    }
+    .personal {
+        font-size: .7em;
+    }
+}
