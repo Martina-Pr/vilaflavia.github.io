@@ -869,10 +869,31 @@ img > p{
     .navigation.responsive {
         padding-left: 42%;
     }
+    .text1 {
+        font-size: 2.2em;
+        top:  16.8em;
+    }
+    .container-footer {
+        height: 13em;
+    }
 }
 @media (max-width: 450px){
     .navigation.responsive {
         padding-left: 39%;
+    }
+    .text1 {
+        font-size: 2em;
+        top: 18em;
+    }
+    .container-footer {
+        height: 12em;
+    }
+    .personal {
+        font-size: 1.1em;
+    }
+    #button {
+        right: .5em;
+        bottom: 7em;
     }
 }
 @media (max-width: 410px){
@@ -882,43 +903,9 @@ img > p{
     .navigation.responsive {
         padding-left: 35%;
     }
-    .text1 {
-        font-size: 1.9em;
-        top: 20em;
-    }
-    .container-footer {
-        height: 13em;
-    }
-    .personal {
-        font-size: 1.1em;
-    }
-    #button {
-        right: .5em;
-        bottom: 7em;
-    }
     .fa-2x {
         font-size: 1.8em;
     }
-}
-@media (max-width: 370px){
-    .text1 {
-        font-size: 1.7em;
-        top: 22em;
-    }
-    .personal {
-        font-size: 1em;
-    }
-    .copy {
-        font-size: 1em;
-    }
-    .container-footer {
-        height: 10em;
-    }
-    .kontakt {
-        font-size: 1em;
-    }
-}
-@media (max-width: 340px){
     .text1 {
         font-size: 1.6em;
         top: 24em;
@@ -926,6 +913,8 @@ img > p{
     .personal {
         font-size: .9em;
     }
+}
+@media (max-width: 340px){
     #button {
         bottom: 6em;
     }
