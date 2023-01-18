@@ -832,7 +832,10 @@ img > p{
     .logo {
         width: 60%;
     }
-
+    .text1 {
+        text-align: center;
+        align-items: center;
+    }
     @-webkit-keyframes myfirst {
         from {
             left: 0px;
@@ -884,11 +887,11 @@ img > p{
         padding-left: 35%;
     }
     .text1 {
-        font-size: 2em;
-        top: 18em;
+        font-size: 1.9em;
+        top: 20em;
     }
     .container-footer {
-        height: 12em;
+        height: 13em;
     }
     .personal {
         font-size: 1.1em;
@@ -921,8 +924,8 @@ img > p{
 }
 @media (max-width: 340px){
     .text1 {
-        font-size: 1.5em;
-        top: 26em;
+        font-size: 1.6em;
+        top: 24em;
     }
     .personal {
         font-size: .9em;
@@ -933,9 +936,8 @@ img > p{
 }
 @media (max-width: 320px){
     .text1 {
-        font-size: 1.3em;
-        top: 30em;
-        margin-left: .7em;
+        font-size: 1.5em;
+        top: 26em;
     }
     .personal {
         font-size: .8em;
