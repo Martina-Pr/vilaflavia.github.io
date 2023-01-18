@@ -832,10 +832,6 @@ img > p{
     .logo {
         width: 60%;
     }
-    .text1 {
-        text-align: center;
-        align-items: center;
-    }
     @-webkit-keyframes myfirst {
         from {
             left: 0px;
@@ -853,16 +849,6 @@ img > p{
             left: 0%;
         }
     }
-}
-@media (max-width: 550px){
-    .navigation.responsive {
-        padding-left: 50%;
-    }
-}
-@media (max-width: 490px){
-    .navigation.responsive {
-        padding-left: 42%;
-    }
     .text1 {
         font-size: 2.2em;
         top:  16.8em;
@@ -872,6 +858,16 @@ img > p{
     }
     .personal1 {
         font-size: 1em;
+    }
+}
+@media (max-width: 550px){
+    .navigation.responsive {
+        padding-left: 50%;
+    }
+}
+@media (max-width: 490px){
+    .navigation.responsive {
+        padding-left: 42%;
     }
 }
 @media (max-width: 450px){
