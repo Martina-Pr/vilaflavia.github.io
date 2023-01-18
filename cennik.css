@@ -418,6 +418,9 @@ tr:nth-child(even){
     .kontakt {
         font-size: 1em;
     }
+    .personal {
+        font-size: 1.1em;
+    }
 }
 @media (max-width: 450px){
     .navigation.responsive {
@@ -434,7 +437,7 @@ tr:nth-child(even){
         height: 10.5em;
     }
     .personal {
-        font-size: 1.1em;
+        font-size: 1em;
     }
 }
 @media (max-width: 410px){
