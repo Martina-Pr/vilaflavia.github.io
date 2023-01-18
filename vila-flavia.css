@@ -656,6 +656,9 @@ img > p{
     text-align: center;
     font-size: 1.2em;
 }
+.copy p {
+        margin: 0;
+    }
 #button {
     color: #666666;
     position: fixed;
@@ -872,9 +875,13 @@ img > p{
     .text1 {
         font-size: 2.2em;
         top:  16.8em;
+        margin-left: .8em;
     }
     .container-footer {
-        height: 13em;
+        height: 12em;
+    }
+    .kontakt {
+        font-size: 1em;
     }
 }
 @media (max-width: 450px){
@@ -886,7 +893,7 @@ img > p{
         top: 18em;
     }
     .container-footer {
-        height: 12em;
+        height: 10.5em;
     }
     .personal {
         font-size: 1.1em;
@@ -903,15 +910,19 @@ img > p{
     .navigation.responsive {
         padding-left: 35%;
     }
-    .fa-2x {
-        font-size: 1.8em;
-    }
     .text1 {
         font-size: 1.6em;
         top: 24em;
     }
     .personal {
         font-size: .9em;
+    }
+    #button {
+        right: .5em;
+        bottom: 7em;
+    }
+    .fa-2x {
+        font-size: 1.8em;
     }
 }
 @media (max-width: 340px){
