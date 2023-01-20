@@ -18,12 +18,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 
 html, body{
     width: 100%;
+    max-width: 1550px;
 }
 a{
     text-decoration: none;
 }
 div.nav-list-header{
-    height: 5em;
+    height: 4em;
     width: 100%;
     position: fixed;
     top: 0;
@@ -49,6 +50,7 @@ div.nav-list-header{
 }
 .nav-menu {
     padding-left: 30%;
+     padding-right: 1em;
 }
 .menu-social{
     display: -webkit-inline-box;
@@ -94,7 +96,7 @@ section.slide {
     position: absolute;
     width: 100%;
     height: 700px;
-    top: 4em;
+    top: 0;
     left: 0;
     color: transparent;
     background-size: cover;
@@ -113,7 +115,7 @@ ul,li,span{
     /* animation-delay: 6s;*/
 }
 .slideshow li:nth-child(2) span {
-    background-image: url('./img/exterier/foto1.jpg');
+    background-image: url('./img/jedalen/jedalen-8.jpg');
     -webkit-animation-delay: 6s;
             animation-delay: 6s;
 }
@@ -887,7 +889,7 @@ p{
 /*Footer */
 
 .container-footer{
-    background: #999999;
+    background: #404040;
     height: 13.5em;
     padding-bottom: .5em;
 }
@@ -906,7 +908,7 @@ p{
             flex-grow: 1;
     -ms-flex-negative: 1;
         flex-shrink: 1;
-    color: #404040;
+    color:#f2f2f2;
     padding-top: .5em;
     font-size: 1.3em;
     line-height: 2em;
@@ -919,11 +921,11 @@ p{
     gap: 5%;
 }
 .personal1 {
-    color: #404040;
+   color:  #f2f2f2;
 }
 .personal :hover,
 .personal :focus {
-    color: #ffffff;
+    color: #999999;
 }
 .kontakt{
     padding-left: 1.2em;
@@ -931,7 +933,7 @@ p{
     font-size: 1.2em;
     text-align: left;
     display: block;
-    color:#404040;
+    color: #f2f2f2;
 }
 .kontakt strong {
     font-size: 1em;
@@ -1027,15 +1029,17 @@ p{
         top: 0;
     }
     .nav-menu {
-        padding-left: 0;
+        padding-left: 60%;
+        padding-right: 0;
+    }
+    .nav-link {
+        border-top: solid .1em #999999;
     }
     .navigation.responsive a {
         position: relative;
         display: -ms-grid;
         display: grid;
-        background: #666666;
-        -webkit-box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.8);
-                box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.8);
+        background: #404040;
         line-height: 1.5em;
         font-size: 1.1em;
     }
@@ -1043,9 +1047,9 @@ p{
         position: relative;
         display: -ms-grid;
         display: grid;
-        top: 6.5em;
-        padding-left: 60%;
-        padding-right: 2em;
+        background: #404040;
+        top: 6.17em;
+        padding-left: 0;
         text-align: center;
     }
 }
@@ -1072,9 +1076,6 @@ p{
     }
 }
 @media (max-width: 700px){
-    .nav-menu .icon {
-        right: 1.5em;
-    }
     .text-izba-c-1, .thumbnails1, .text-izba-c-2, .thumbnails2, .text-izba-c-3, .thumbnails3, .text-izba-c-4, .thumbnails4{
         width: 70%;
     }
@@ -1086,7 +1087,7 @@ p{
     .container-kontakt {
         font-size: 1.2em;
     }
-    .navigation.responsive {
+    .nav-menu {
         padding-left: 55%;
     }
 }
@@ -1116,12 +1117,12 @@ p{
         padding: .1em;
         width: 19.5%;
     }
-    .navigation.responsive {
+    .nav-menu {
         padding-left: 50%;
     }
 }
 @media (max-width: 490px){
-    .navigation.responsive {
+    .nav-menu  {
         padding-left: 42%;
     }
     .text1 {
@@ -1140,7 +1141,7 @@ p{
     }
 }
 @media (max-width: 450px){
-    .navigation.responsive {
+    .nav-menu  {
         padding-left: 39%;
     }
     .text1 {
@@ -1158,8 +1159,11 @@ p{
     .nav-menu {
         font-size: 1em;
     }
-    .navigation.responsive {
+    .nav-menu  {
         padding-left: 35%;
+    }
+    .navigation.responsive {
+        top: 6.38em;
     }
     .text1 {
         font-size: 1.6em;
@@ -1174,6 +1178,11 @@ p{
     }
     .fa-2x {
         font-size: 1.8em;
+    }
+}
+@media (max-width: 350px) {
+    .nav-menu {
+        padding-left: 30%;
     }
 }
 @media (max-width: 340px){
@@ -1194,6 +1203,9 @@ p{
     }
 }
 @media (max-width: 290px){
+    .nav-menu {
+        padding-left: 25%;
+    }
     .text1 {
         font-size: 1.2em;
         top: 32em;

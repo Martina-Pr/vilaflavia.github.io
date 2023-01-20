@@ -18,12 +18,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 
 html, body{
     width: 100%;
+    max-width: 1550px;
 }
 a{
     text-decoration: none;
 }
 div.nav-list-header{
-    height: 5em;
+    height: 4em;
     width: 100%;
     position: fixed;
     top: 0;
@@ -35,36 +36,37 @@ div.nav-list-header{
     display: -ms-inline-flexbox;
     display: inline-flex;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     font-size: 1.2em;
     line-height: 1.4em;
     font-style: italic;
     font-family: bitter,serif;
     list-style: none;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     gap: 5%;
 }
 .nav-menu {
     padding-left: 30%;
+    padding-right: 1em;
 }
 .menu-social{
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap:wrap;
-        flex-wrap:wrap;
+    flex-wrap:wrap;
     -webkit-box-flex: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
     -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 .fa-brands,.nav-link,a{
     color:#f2f2f2;
@@ -94,7 +96,7 @@ section.slide {
     position: absolute;
     width: 100%;
     height: 700px;
-    top: 4em;
+    top: 0;
     left: 0;
     color: transparent;
     background-size: cover;
@@ -103,35 +105,35 @@ section.slide {
     opacity: 0;
     z-index: -1;
     -webkit-animation: imageAnimation 20s linear infinite 0s;
-            animation: imageAnimation 20s linear infinite 0s;
+    animation: imageAnimation 20s linear infinite 0s;
 }
 ul,li,span{
     list-style: none;
 }
 .slideshow li:nth-child(1) span {
-    background-image: url('./img/exterier/vila.jpg');
+    background-image: url('./img/exterier/budova-zima3.jpg');
     /* animation-delay: 6s;*/
 }
 .slideshow li:nth-child(2) span {
-    background-image: url('./img/exterier/foto1.jpg');
+    background-image: url('./img/exterier/zima-ski-balog.jpg');
     -webkit-animation-delay: 6s;
-            animation-delay: 6s;
+    animation-delay: 6s;
 }
 .slideshow li:nth-child(3) span {
-    background-image: url('./img/jedalen.jpg');
+    background-image: url('./img/exterier/lyzovacka.jpg');
     -webkit-animation-delay: 12s;
-            animation-delay: 12s;
+    animation-delay: 12s;
 }
 @-webkit-keyframes imageAnimation {
     0% {
         opacity: 0;
         -webkit-animation-timing-function: ease-in;
-                animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
     }
     8% {
         opacity: 1;
         -webkit-animation-timing-function: ease-out;
-                animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
     }
     17% {
         opacity: 1
@@ -153,12 +155,12 @@ ul,li,span{
     0% {
         opacity: 0;
         -webkit-animation-timing-function: ease-in;
-                animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
     }
     8% {
         opacity: 1;
         -webkit-animation-timing-function: ease-out;
-                animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
     }
     17% {
         opacity: 1
@@ -197,20 +199,20 @@ ul{
     color:#404040 ;
     text-shadow: 2px 2px 2px white;
     -webkit-animation: myfirst 4s linear;
-            animation: myfirst 4s linear;
+    animation: myfirst 4s linear;
     -webkit-animation-timing-function: linear;
-            animation-timing-function: linear;
+    animation-timing-function: linear;
     -webkit-animation-iteration-count: 2;
-            animation-iteration-count: 2;
+    animation-iteration-count: 2;
     -webkit-animation-direction: alternate;
-            animation-direction: alternate;
+    animation-direction: alternate;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 p {
     margin: 1em;
@@ -245,10 +247,10 @@ p {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     position: relative;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     padding-top: 5em;
     padding-bottom: 5em;
@@ -259,11 +261,11 @@ p {
     font-family: sans-serif;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .okolie-ciernohronska-zeleznicka strong{
     font-size: 1.5em;
@@ -274,16 +276,16 @@ p {
     color: #cc0000;
 }
 .okolie-ciernohronska-zeleznicka {
-    width: 80%;
+    width: 55%;
     position: relative;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     border: .1em solid #d9d9d9;
     background-color: #e6e6e6;
     -webkit-box-shadow: 0px 0px 16px 16px #d9d9d9;
-            box-shadow: 0px 0px 16px 16px #d9d9d9;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
 }
 .border {
     width: 40%;
@@ -297,10 +299,10 @@ p {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     position: relative;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     font-size: 1.3em;
     background-image : -webkit-gradient(linear,left top, left bottom,from(#ffffff),color-stop(#ffffff), color-stop(#f2f2f2),color-stop(#e6e6e6),color-stop(#d9d9d9),color-stop(#cccccc),color-stop(#bfbfbf),to(#b3b3b3));
@@ -309,24 +311,24 @@ p {
     font-family: sans-serif;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .okolie-ciernohronska-zeleznicka-foto {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 100%;
     padding: 0;
@@ -338,18 +340,18 @@ p {
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -370,13 +372,13 @@ p {
     border-radius: 8%;
     border: 0.1em solid #666666;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
 }
 .column {
     float: left;
     width: 25%;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     padding: 0;
 }
 
@@ -387,10 +389,10 @@ p {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     position: relative;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     font-size: 1.3em;
     padding-top: 3em;
@@ -401,23 +403,23 @@ p {
     font-family: sans-serif;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .okolie-cyklodrezina {
-    width: 80%;
+    width: 55%;
     position: relative;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     border: .1em solid #d9d9d9;
     background-color: #e6e6e6;
     -webkit-box-shadow: 0px 0px 16px 16px #d9d9d9;
-            box-shadow: 0px 0px 16px 16px #d9d9d9;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
 }
 .okolie-cyklodrezina strong{
     font-size: 1.5em;
@@ -435,10 +437,10 @@ p {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     position: relative;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     font-size: 1.3em;
     padding-top: 3em;
@@ -449,23 +451,23 @@ p {
     font-family: sans-serif;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .okolie-vydrovo {
-    width: 80%;
+    width: 55%;
     position: relative;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     border: .1em solid #d9d9d9;
     background-color: #e6e6e6;
     -webkit-box-shadow: 0px 0px 16px 16px #d9d9d9;
-            box-shadow: 0px 0px 16px 16px #d9d9d9;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
 }
 .okolie-vydrovo strong{
     font-size: 1.5em;
@@ -483,10 +485,10 @@ p {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     position: relative;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     font-size: 1.3em;
     background-image : -webkit-gradient(linear,left top, left bottom,from(#ffffff),color-stop(#ffffff), color-stop(#f2f2f2),color-stop(#e6e6e6),color-stop(#d9d9d9),color-stop(#cccccc),color-stop(#bfbfbf),to(#b3b3b3));
@@ -495,24 +497,24 @@ p {
     font-family: sans-serif;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .okolie-vydrovo-foto {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 100%;
     padding: 0;
@@ -524,18 +526,18 @@ p {
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -556,13 +558,13 @@ p {
     border-radius: 8%;
     border: 0.1em solid #666666;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
 }
 .column {
     float: left;
     width: 25%;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     padding: 0;
 }
 
@@ -573,10 +575,10 @@ p {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     position: relative;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     font-size: 1.3em;
     padding-top: 3em;
@@ -587,23 +589,23 @@ p {
     font-family: sans-serif;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .okolie-ski-cierny-balog {
-    width: 80%;
+    width: 55%;
     position: relative;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     border: .1em solid #d9d9d9;
     background-color: #e6e6e6;
     -webkit-box-shadow: 0px 0px 16px 16px #d9d9d9;
-            box-shadow: 0px 0px 16px 16px #d9d9d9;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
 }
 .okolie-ski-cierny-balog strong{
     font-size: 1.5em;
@@ -621,10 +623,10 @@ p {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     position: relative;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     font-size: 1.3em;
     padding-top: 3em;
@@ -635,23 +637,23 @@ p {
     font-family: sans-serif;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .okolie-bystrianska-jaskyna {
-    width: 80%;
+    width: 55%;
     position: relative;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     border: .1em solid #d9d9d9;
     background-color: #e6e6e6;
     -webkit-box-shadow: 0px 0px 16px 16px #d9d9d9;
-            box-shadow: 0px 0px 16px 16px #d9d9d9;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
 }
 .okolie-bystrianska-jaskyna strong{
     font-size: 1.5em;
@@ -669,10 +671,10 @@ p {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     position: relative;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     font-size: 1.3em;
     background-image : -webkit-gradient(linear,left top, left bottom,from(#ffffff),color-stop(#ffffff), color-stop(#f2f2f2),color-stop(#e6e6e6),color-stop(#d9d9d9),color-stop(#cccccc),color-stop(#bfbfbf),to(#b3b3b3));
@@ -681,24 +683,24 @@ p {
     font-family: sans-serif;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .okolie-bystrianska-jaskyna-foto {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 100%;
     padding: 0;
@@ -711,10 +713,10 @@ p {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     position: relative;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     font-size: 1.3em;
     padding-top: 3em;
@@ -725,23 +727,23 @@ p {
     font-family: sans-serif;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .okolie-nizke-tatry {
-    width: 80%;
+    width: 55%;
     position: relative;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     border: .1em solid #d9d9d9;
     background-color: #e6e6e6;
     -webkit-box-shadow: 0px 0px 16px 16px #d9d9d9;
-            box-shadow: 0px 0px 16px 16px #d9d9d9;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
 }
 .okolie-nizke-tatry strong{
     font-size: 1.5em;
@@ -759,10 +761,10 @@ p {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     position: relative;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     font-size: 1.3em;
     padding-top: 3em;
@@ -773,23 +775,23 @@ p {
     font-family: sans-serif;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .okolie-tipy{
-    width: 80%;
+    width: 55%;
     position: relative;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     border: .1em solid #d9d9d9;
     background-color: #e6e6e6;
     -webkit-box-shadow: 0px 0px 16px 16px #d9d9d9;
-            box-shadow: 0px 0px 16px 16px #d9d9d9;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
 }
 .okolie-tipy strong{
     font-size: 1.5em;
@@ -808,7 +810,7 @@ b {
 /*Footer*/
 
 .container-footer{
-    background: #999999;
+    background: #404040;
     height: 13.5em;
     padding-bottom: .5em;
 }
@@ -821,13 +823,13 @@ b {
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -ms-flex-negative: 1;
-        flex-shrink: 1;
-    color: #404040;
+    flex-shrink: 1;
+    color:#f2f2f2;
     padding-top: .5em;
     font-size: 1.3em;
     line-height: 2em;
@@ -835,16 +837,16 @@ b {
     font-family: bitter,serif;
     list-style: none;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     gap: 5%;
 }
-.hauzi,.personal1 {
-    color: #404040;
+.personal1 {
+   color:  #f2f2f2;
 }
 .personal :hover,
 .personal :focus {
-    color: #ffffff;
+    color: #999999;
 }
 .kontakt{
     padding-left: 1.2em;
@@ -852,7 +854,7 @@ b {
     font-size: 1.2em;
     text-align: left;
     display: block;
-    color:#404040;
+    color: #f2f2f2;
 }
 .kontakt strong {
     font-size: 1em;
@@ -874,8 +876,8 @@ b {
     font-size: 1.2em;
 }
 .copy p {
-        margin: 0;
-    }
+    margin: 0;
+}
 #button {
     color: #666666;
     position: fixed;
@@ -949,15 +951,17 @@ b {
         top: 0;
     }
     .nav-menu {
-        padding-left: 0;
+        padding-left: 60%;
+        padding-right: 0;
+    }
+    .nav-link {
+        border-top: solid .1em #999999;
     }
     .navigation.responsive a {
         position: relative;
         display: -ms-grid;
         display: grid;
-        background: #666666;
-        -webkit-box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.8);
-                box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.8);
+        background: #404040;
         line-height: 1.5em;
         font-size: 1.1em;
     }
@@ -965,9 +969,9 @@ b {
         position: relative;
         display: -ms-grid;
         display: grid;
-        top: 6.5em;
-        padding-left: 60%;
-        padding-right: 2em;
+        background: #404040;
+        top: 6.17em;
+        padding-left: 0;
         text-align: center;
     }
 }
@@ -993,11 +997,6 @@ b {
         }
     }
 }
-@media (max-width: 700px) {
-    .nav-menu .icon {
-        right: 1.5em;
-    }
-}
 @media (max-width: 620px) {
     .column {
         width: 50%;
@@ -1006,7 +1005,7 @@ b {
     .row {
         padding-top: 1em;
     }
-    .navigation.responsive {
+    .nav-menu {
         padding-left: 55%;
     }
 }
@@ -1032,12 +1031,12 @@ b {
     }
 }
 @media (max-width: 550px){
-    .navigation.responsive {
+    .nav-menu {
         padding-left: 50%;
     }
 }
 @media (max-width: 490px){
-    .navigation.responsive {
+    .nav-menu  {
         padding-left: 42%;
     }
     .text1 {
@@ -1056,7 +1055,7 @@ b {
     }
 }
 @media (max-width: 450px){
-    .navigation.responsive {
+    .nav-menu  {
         padding-left: 39%;
     }
     .text1 {
@@ -1074,8 +1073,11 @@ b {
     .nav-menu {
         font-size: 1em;
     }
-    .navigation.responsive {
+    .nav-menu  {
         padding-left: 35%;
+    }
+    .navigation.responsive {
+        top: 6.38em;
     }
     .text1 {
         font-size: 1.6em;
@@ -1090,6 +1092,11 @@ b {
     }
     .fa-2x {
         font-size: 1.8em;
+    }
+}
+@media (max-width: 350px) {
+    .nav-menu {
+        padding-left: 30%;
     }
 }
 @media (max-width: 340px){
@@ -1110,6 +1117,9 @@ b {
     }
 }
 @media (max-width: 290px){
+    .nav-menu {
+        padding-left: 25%;
+    }
     .text1 {
         font-size: 1.2em;
         top: 32em;

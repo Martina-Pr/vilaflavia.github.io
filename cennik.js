@@ -25,7 +25,7 @@ window.onscroll = calcScrollValue;
 window.onload = calcScrollValue;
 
 /* hamburger menu */
-function myFunction() {
+/*function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "navigation") {
         (x.className += " responsive");
@@ -33,4 +33,21 @@ function myFunction() {
         (x.className = "navigation");
     }
 }
+*/
 
+function myFunction() {
+    x = document.getElementById("myTopnav");
+    if (x.className === "navigation") {
+        (x.className += " responsive");
+setTimeout(() => {
+        window.addEventListener("click", menuOut);
+    }, 100); 
+    } else {
+        (x.className = "navigation");
+    }
+}
+
+function menuOut (){
+window.removeEventListener("click", menuOut);
+    x.className = "navigation";
+}
