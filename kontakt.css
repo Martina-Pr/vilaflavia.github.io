@@ -450,6 +450,9 @@ h3 {
     .nav-link {
         border-top: solid .1em #999999;
     }
+    .navigation li:last-child{
+        border-bottom: solid .1em #999999;
+    }
     .navigation.responsive a {
         position: relative;
         display: -ms-grid;
@@ -463,7 +466,7 @@ h3 {
         display: -ms-grid;
         display: grid;
         background: #404040;
-        top: 6.17em;
+        top: 6.2em;
         padding-left: 0;
         text-align: center;
         gap: 0;
@@ -581,7 +584,7 @@ h3 {
         padding-left: 35%;
     }
     .navigation.responsive {
-        top: 6.38em;
+        top: 6.4em;
     }
     .text1 {
         font-size: 1.6em;

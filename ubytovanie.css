@@ -36,37 +36,37 @@ div.nav-list-header{
     display: -ms-inline-flexbox;
     display: inline-flex;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     font-size: 1.2em;
     line-height: 1.4em;
     font-style: italic;
     font-family: bitter,serif;
     list-style: none;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     gap: 5%;
 }
 .nav-menu {
     padding-left: 30%;
-     padding-right: 1em;
+    padding-right: 1em;
 }
 .menu-social{
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap:wrap;
-        flex-wrap:wrap;
+    flex-wrap:wrap;
     -webkit-box-flex: 0;
-        -ms-flex-positive: 0;
-            flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
     -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 .fa-brands,.nav-link,a{
     color:#f2f2f2;
@@ -105,7 +105,7 @@ section.slide {
     opacity: 0;
     z-index: -1;
     -webkit-animation: imageAnimation 20s linear infinite 0s;
-            animation: imageAnimation 20s linear infinite 0s;
+    animation: imageAnimation 20s linear infinite 0s;
 }
 ul,li,span{
     list-style: none;
@@ -117,23 +117,23 @@ ul,li,span{
 .slideshow li:nth-child(2) span {
     background-image: url('./img/jedalen/jedalen-8.jpg');
     -webkit-animation-delay: 6s;
-            animation-delay: 6s;
+    animation-delay: 6s;
 }
 .slideshow li:nth-child(3) span {
     background-image: url('./img/jedalen.jpg');
     -webkit-animation-delay: 12s;
-            animation-delay: 12s;
+    animation-delay: 12s;
 }
 @-webkit-keyframes imageAnimation {
     0% {
         opacity: 0;
         -webkit-animation-timing-function: ease-in;
-                animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
     }
     8% {
         opacity: 1;
         -webkit-animation-timing-function: ease-out;
-                animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
     }
     17% {
         opacity: 1
@@ -155,12 +155,12 @@ ul,li,span{
     0% {
         opacity: 0;
         -webkit-animation-timing-function: ease-in;
-                animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
     }
     8% {
         opacity: 1;
         -webkit-animation-timing-function: ease-out;
-                animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
     }
     17% {
         opacity: 1
@@ -199,20 +199,20 @@ ul{
     color:#404040 ;
     text-shadow: 2px 2px 2px white;
     -webkit-animation: myfirst 4s linear;
-            animation: myfirst 4s linear;
+    animation: myfirst 4s linear;
     -webkit-animation-timing-function: linear;
-            animation-timing-function: linear;
+    animation-timing-function: linear;
     -webkit-animation-iteration-count: 2;
-            animation-iteration-count: 2;
+    animation-iteration-count: 2;
     -webkit-animation-direction: alternate;
-            animation-direction: alternate;
+    animation-direction: alternate;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 p {
     margin: 1em;
@@ -250,9 +250,9 @@ p{
     display: flex;
     position: relative;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     padding-top: 5em;
     background-image : -webkit-gradient(linear,left top, left bottom,from(#ffffff),color-stop(#ffffff), color-stop(#f2f2f2),color-stop(#e6e6e6),color-stop(#d9d9d9),color-stop(#cccccc),color-stop(#bfbfbf),to(#b3b3b3));
@@ -262,24 +262,24 @@ p{
     font-family: sans-serif;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .izba-cislo-1{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 80%;
     padding-bottom: 5em;
@@ -291,25 +291,25 @@ p{
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 30%;
     padding: 1em;
     border: .1em solid #d9d9d9;
     background-color: #e6e6e6;
     -webkit-box-shadow: 0px 0px 16px 16px #d9d9d9;
-            box-shadow: 0px 0px 16px 16px #d9d9d9;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
 }
 .text-izba-c-1 strong{
     font-size: 1.5em;
@@ -329,10 +329,10 @@ p{
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     position: relative;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     padding-top: 5em;
     background-image : -webkit-gradient(linear,left top, left bottom,from(#ffffff),color-stop(#ffffff), color-stop(#f2f2f2),color-stop(#e6e6e6),color-stop(#d9d9d9),color-stop(#cccccc),color-stop(#bfbfbf),to(#b3b3b3));
@@ -342,24 +342,24 @@ p{
     font-family: sans-serif;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .izba-cislo-2{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 80%;
     padding-bottom: 5em;
@@ -371,25 +371,25 @@ p{
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 30%;
     padding: 1em;
     border: .1em solid #d9d9d9;
     background-color: #e6e6e6;
     -webkit-box-shadow: 0px 0px 16px 16px #d9d9d9;
-            box-shadow: 0px 0px 16px 16px #d9d9d9;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
 }
 .text-izba-c-2 strong{
     font-size: 1.5em;
@@ -406,18 +406,18 @@ p{
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -ms-flex-negative: 0;
-        flex-shrink: 0;
+    flex-shrink: 0;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 30%;
 }
@@ -428,18 +428,18 @@ p{
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -ms-flex-negative: 0;
-        flex-shrink: 0;
+    flex-shrink: 0;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 30%;
 }
@@ -450,18 +450,18 @@ p{
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -ms-flex-negative: 0;
-        flex-shrink: 0;
+    flex-shrink: 0;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 30%;
 }
@@ -472,18 +472,18 @@ p{
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -ms-flex-negative: 0;
-        flex-shrink: 0;
+    flex-shrink: 0;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 30%;
 }
@@ -539,11 +539,11 @@ p{
     padding-top: 5%;
     width: 104%;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
 }
 .row:after {
@@ -573,10 +573,10 @@ p{
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     position: relative;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     padding-top: 5em;
     background-image : -webkit-gradient(linear,left top, left bottom,from(#ffffff),color-stop(#ffffff), color-stop(#f2f2f2),color-stop(#e6e6e6),color-stop(#d9d9d9),color-stop(#cccccc),color-stop(#bfbfbf),to(#b3b3b3));
@@ -586,11 +586,11 @@ p{
     font-family: sans-serif;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .izba-cislo-3{
     display: -webkit-box;
@@ -599,13 +599,13 @@ p{
 
     -ms-flex-wrap: wrap;
 
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 80%;
     padding-bottom: 5em;
@@ -617,25 +617,25 @@ p{
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 30%;
     padding: 1em;
     border: .1em solid #d9d9d9;
     background-color: #e6e6e6;
     -webkit-box-shadow: 0px 0px 16px 16px #d9d9d9;
-            box-shadow: 0px 0px 16px 16px #d9d9d9;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
 }
 .text-izba-c-3 strong{
     font-size: 1.5em;
@@ -650,10 +650,10 @@ p{
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     position: relative;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     padding-top: 5em;
     background-image : -webkit-gradient(linear,left top, left bottom,from(#ffffff),color-stop(#ffffff), color-stop(#f2f2f2),color-stop(#e6e6e6),color-stop(#d9d9d9),color-stop(#cccccc),color-stop(#bfbfbf),to(#b3b3b3));
@@ -663,24 +663,24 @@ p{
     font-family: sans-serif;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .izba-cislo-4{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 80%;
     padding-bottom: 5em;
@@ -692,25 +692,25 @@ p{
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 30%;
     padding: 1em;
     border: .1em solid #d9d9d9;
     background-color: #e6e6e6;
     -webkit-box-shadow: 0px 0px 16px 16px #d9d9d9;
-            box-shadow: 0px 0px 16px 16px #d9d9d9;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
 }
 .text-izba-c-4 strong{
     font-size: 1.5em;
@@ -725,10 +725,10 @@ p{
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     position: relative;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     padding-top: 5em;
     background-image : -webkit-gradient(linear,left top, left bottom,from(#ffffff),color-stop(#ffffff), color-stop(#f2f2f2),color-stop(#e6e6e6),color-stop(#d9d9d9),color-stop(#cccccc),color-stop(#bfbfbf),to(#b3b3b3));
@@ -738,24 +738,24 @@ p{
     font-family: sans-serif;
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .vinaren-jedalen-kutik-kuchyna{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 90%;
     padding-bottom: 5em;
@@ -767,25 +767,25 @@ p{
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 40%;
     padding: 1em;
     border: 0.1em solid #d9d9d9;
     background-color: #e6e6e6;
     -webkit-box-shadow: 0px 0px 16px 16px #d9d9d9;
-            box-shadow: 0px 0px 16px 16px #d9d9d9;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
 }
 .jedalen{
     position: relative;
@@ -793,25 +793,25 @@ p{
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 40%;
     padding: 1em;
     border: 0.1em solid #d9d9d9;
     background-color: #e6e6e6;
     -webkit-box-shadow: 0px 0px 16px 16px #d9d9d9;
-            box-shadow: 0px 0px 16px 16px #d9d9d9;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
 }
 .detsky-kutik{
     position: relative;
@@ -819,25 +819,25 @@ p{
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 40%;
     padding: 1em;
     border: 0.1em solid #d9d9d9;
     background-color: #e6e6e6;
     -webkit-box-shadow: 0px 0px 16px 16px #d9d9d9;
-            box-shadow: 0px 0px 16px 16px #d9d9d9;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
 }
 .vinaren{
     position: relative;
@@ -845,25 +845,25 @@ p{
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
     width: 40%;
     padding: 1em;
     border: 0.1em solid #d9d9d9;
     background-color: #e6e6e6;
     -webkit-box-shadow: 0px 0px 16px 16px #d9d9d9;
-            box-shadow: 0px 0px 16px 16px #d9d9d9;
+    box-shadow: 0px 0px 16px 16px #d9d9d9;
 }
 .kuchyna strong{
     font-size: 1.5em;
@@ -902,12 +902,12 @@ p{
     display: -ms-inline-flexbox;
     display: inline-flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
     -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
     color:#f2f2f2;
     padding-top: .5em;
     font-size: 1.3em;
@@ -916,12 +916,12 @@ p{
     font-family: bitter,serif;
     list-style: none;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     gap: 5%;
 }
 .personal1 {
-   color:  #f2f2f2;
+    color:  #f2f2f2;
 }
 .personal :hover,
 .personal :focus {
@@ -955,8 +955,8 @@ p{
     font-size: 1.2em;
 }
 .copy p {
-        margin: 0;
-    }
+    margin: 0;
+}
 #button {
     color: #666666;
     position: fixed;
@@ -1035,6 +1035,9 @@ p{
     .nav-link {
         border-top: solid .1em #999999;
     }
+    .navigation li:last-child{
+        border-bottom: solid .1em #999999;
+    }
     .navigation.responsive a {
         position: relative;
         display: -ms-grid;
@@ -1048,7 +1051,7 @@ p{
         display: -ms-grid;
         display: grid;
         background: #404040;
-        top: 6.17em;
+        top: 6.2em;
         padding-left: 0;
         text-align: center;
         gap: 0;
@@ -1164,7 +1167,7 @@ p{
         padding-left: 35%;
     }
     .navigation.responsive {
-        top: 6.38em;
+        top: 6.4em;
     }
     .text1 {
         font-size: 1.6em;

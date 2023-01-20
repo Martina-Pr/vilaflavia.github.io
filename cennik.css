@@ -306,7 +306,7 @@ tr:nth-child(even){
     flex-grow: 1;
     -ms-flex-negative: 1;
     flex-shrink: 1;
-    color: #404040;
+    color: #f2f2f2;
     padding-top: .5em;
     font-size: 1.3em;
     line-height: 2em;
@@ -319,7 +319,7 @@ tr:nth-child(even){
     gap: 5%;
 }
 .personal1 {
-   color:  #f2f2f2;
+    color:  #f2f2f2;
 }
 .personal :hover,
 .personal :focus {
@@ -431,6 +431,9 @@ tr:nth-child(even){
     .nav-link {
         border-top: solid .1em #999999;
     }
+    .navigation li:last-child{
+        border-bottom: solid .1em #999999;
+    }
     .navigation.responsive a {
         position: relative;
         display: -ms-grid;
@@ -444,7 +447,7 @@ tr:nth-child(even){
         display: -ms-grid;
         display: grid;
         background: #404040;
-        top: 6.17em;
+        top: 6.2em;
         padding-left: 0;
         text-align: center;
         gap: 0;
@@ -539,7 +542,7 @@ tr:nth-child(even){
     .nav-menu  {
         padding-left: 39%;
     }
-    
+
     td {
         padding: 0.3em;
     }
@@ -571,7 +574,7 @@ tr:nth-child(even){
         padding-left: 35%;
     }
     .navigation.responsive {
-        top: 6.38em;
+        top: 6.4em;
     }
     .text1 {
         font-size: 1.6em;
