@@ -28,6 +28,7 @@ div.nav-list-header{
     width: 100%;
     position: fixed;
     top: 0;
+    left: 0;
     background: #404040;
     z-index: 999;
 }
@@ -712,6 +713,7 @@ img > p{
     .recenzia3 {
         padding-right: 0;
     }
+    
 }
 @media (max-width: 950px){
     .container1, .container2 {
@@ -841,6 +843,9 @@ img > p{
     .nav-menu {
         padding-left: 55%;
     }
+    .border {
+        width: 65%;
+    }
 }
 @media (max-width: 600px) {
     .logo {
@@ -878,6 +883,9 @@ img > p{
     .nav-menu {
         padding-left: 50%;
     }
+    .border {
+        width: 70%;
+    }
 }
 @media (max-width: 490px){
     .nav-menu  {
@@ -912,6 +920,9 @@ img > p{
     .personal {
         font-size: 1em;
     }
+    .border {
+        width: 75%;
+    }
     #button {
         right: .5em;
         bottom: 7em;
@@ -945,6 +956,9 @@ img > p{
 @media (max-width: 350px) {
     .nav-menu {
         padding-left: 30%;
+    }
+    .border {
+        width: 80%;
     }
 }
 @media (max-width: 340px){

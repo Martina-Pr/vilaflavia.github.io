@@ -28,6 +28,7 @@ div.nav-list-header{
     width: 100%;
     position: fixed;
     top: 0;
+    left: 0;
     background: #404040;
     z-index: 999;
 }
@@ -317,7 +318,6 @@ p{
     padding-bottom: .8em;
 }
 .border {
-
     width: 60%;
     padding-top: 1em;
 }
@@ -1094,6 +1094,9 @@ p{
     .nav-menu {
         padding-left: 55%;
     }
+    .border {
+        width: 65%;
+    }
 }
 @media (max-width: 600px) {
     .logo {
@@ -1124,6 +1127,9 @@ p{
     .nav-menu {
         padding-left: 50%;
     }
+    .border {
+        width: 70%;
+    }
 }
 @media (max-width: 490px){
     .nav-menu  {
@@ -1151,6 +1157,9 @@ p{
     .text1 {
         font-size: 2em;
         top: 18em;
+    }
+    .border {
+        width: 75%;
     }
     .container-footer {
         height: 11.5em;
@@ -1187,6 +1196,9 @@ p{
 @media (max-width: 350px) {
     .nav-menu {
         padding-left: 30%;
+    }
+    .border {
+        width: 80%;
     }
 }
 @media (max-width: 340px){
