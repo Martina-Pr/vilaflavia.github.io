@@ -60,6 +60,19 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+
+    $('.thumbnails5 img').on({
+        click: function () {
+            let thumbnailURL = $(this).attr('src');
+
+            $('.figure5 img').fadeOut(200, function () {
+                $(this).attr('src', thumbnailURL);
+            }).fadeIn(200);
+        }
+    });
+});
+
 /* scrolovanie */
 let calcScrollValue = () => {
     let scrollProgress = document.getElementById("button");
