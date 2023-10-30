@@ -1191,7 +1191,7 @@ p{
     }
 }
 @media (max-width: 700px){
-    .text-izba-c-1, .thumbnails1, .text-izba-c-2, .thumbnails2, .text-izba-c-3, .thumbnails3, .text-izba-c-4, .thumbnails4{
+    .text-izba-c-1, .thumbnails1, .text-izba-c-2, .thumbnails2, .text-izba-c-3, .thumbnails3, .text-izba-c-4, .thumbnails5, .text-izba-c-5, .thumbnails5 {
         width: 70%;
     }
     .kuchyna, .vinaren, .jedalen, .detsky-kutik{
