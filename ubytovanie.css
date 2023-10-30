@@ -121,7 +121,7 @@ ul,li,span{
     animation-delay: 6s;
 }
 .slideshow li:nth-child(3) span {
-    background-image: url('./img/jedalen.jpg');
+    background-image: url('./img/jedalen/jedalen.jpg');
     -webkit-animation-delay: 12s;
     animation-delay: 12s;
 }
